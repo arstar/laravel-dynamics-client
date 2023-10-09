@@ -71,12 +71,22 @@ your `.env`.
 
 ```
 DYNAMICS_AUTH=basic
+DYNAMICS_AUTH=oauth2
 ```
 
-| Type       | Authentication Type  |
-|------------|----------------------|
-| On-Premise | NTLM authentication  |
-| 365        | Basic authentication |
+When using Oauth make sure you add the oauth2 credentials to the `.env`
+
+```
+DYNAMICS_CLIENT_ID=
+DYNAMICS_TENANT_ID=
+DYNAMICS_RESOURCE=
+```
+
+| Type       | Authentication Type   |
+|------------|-----------------------|
+| On-Premise | NTLM authentication   |
+| 365        | Basic authentication  |
+| 365 Oauth  | Oauth2 authentication |
 
 ### Connections
 
