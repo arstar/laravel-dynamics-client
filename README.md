@@ -71,12 +71,12 @@ your `.env`.
 
 ```
 DYNAMICS_AUTH=basic
+```
+
+When using Oauth make sure you add the oauth2 credentials to the `.env` and set the DYNAMICS_AUTH to `oauth2`
+
+```
 DYNAMICS_AUTH=oauth2
-```
-
-When using Oauth make sure you add the oauth2 credentials to the `.env`
-
-```
 DYNAMICS_CLIENT_ID=
 DYNAMICS_TENANT_ID=
 DYNAMICS_RESOURCE=
